@@ -112,7 +112,7 @@ transition: 1s;
     }
 }
 
-.ex-11-icon{
+.ex-11-icon:hover{
     animation: spin 3.5s infinite;
     
 }
@@ -128,9 +128,58 @@ transition: 1s;
         transform: rotate(0);
     }
 }
-.ex-11-icon:hover{
-    transform: rotate(270deg)
+
+
+.ex-12-bottom-white,
+.ex-12-top-white{
+    animation: move 3.5s infinite;
 }
+
+@keyframes move {
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+.ex-13-bottom-white,
+.ex-13-top-white{
+     animation: line 3.5s infinite;
+
+}
+
+@keyframes line {
+    0% {
+        transform: rotate(60deg);
+    }
+}
+
+
+@keyframes line {
+    25% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes line {
+    50% {
+        transform: rotate(240deg);
+    }
+}
+
+
+@keyframes line {
+    75% {
+        transform: rotate(300deg);
+    }
+}
+
+@keyframes line {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
