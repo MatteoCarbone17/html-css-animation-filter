@@ -102,6 +102,14 @@ transition: 1s;
     -moz-filter: brightness(110%) saturate(159%) opacity(92%) contrast(103%);
 }
 
+.ex-10-icon{
+    transition: 5s;
+}
+
+.ex-10-icon:hover{
+    transform: rotate(360deg)
+}
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
